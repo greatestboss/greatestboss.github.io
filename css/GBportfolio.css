@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(224, 203, 199);
+}
+div{
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 250px;
+    text-align: center;
+    background-color: rgb(199, 129, 50);
+    word-wrap: break-word;
+    padding: 50px;
+    width: 110px;
+}
+text:hover{
+    background-color: rgb(224, 203, 199);
+}

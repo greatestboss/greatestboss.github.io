@@ -1,0 +1,89 @@
+.container{
+    display: grid;
+    grid-row-gap: 0px;
+    grid-template-areas:
+    "about"
+    "name"
+    "works"
+    "linkup"
+    "roundup";
+}
+#about-container{
+    width: 99%;
+    height: 100px;
+    position: fixed;
+    background-color: rgb(191, 197, 191);
+    color: white !important;
+}
+
+#about{
+    display: grid;
+    float: right;
+    margin-right: 50px;
+    margin-top: 70px;
+    grid-template-areas:
+    "About Work Contact";
+    grid-gap: 110px; 
+    grid-area: about;
+}
+#name{
+    font: 50px;
+    padding: 320px;
+    text-align: center;
+    background-color: grey;
+    margin-top: 100px;
+    grid-area: name;
+}
+#works{
+    text-align: center;
+    color: white;
+    grid-area: works;
+    background-color: rgb(191, 197, 191);
+    
+}
+img{
+    width: 300px;
+    height: 200px;
+    border: 2px solid grey;
+}
+#images_grid{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-areas: 
+    "fig1 fig2 fig3";
+    margin-left: 60px;
+    padding: 100px;
+}
+#text{
+    margin-top: 40px;
+    color: grey;
+    font-size: 20px;
+}
+.general{
+    border: 2px solid white;
+    width: 280px;
+    background-color: grey;
+    padding: 10px;
+}
+#fig1{
+    display: grid;
+    grid-template-areas:
+    "img1"
+    "general";
+    grid-area: fig1;
+}
+#fig2{
+    display: grid;
+    grid-template-areas:
+    "img2"
+    "general";
+    grid-area: fig2;
+}
+#fig3{
+    display: grid;
+    grid-template-areas:
+    "img1"
+    "general";
+    grid-area: fig3;
+}
+
